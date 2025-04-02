@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Road Accident Detection System</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Road Accident Detection and Alert System</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#detection">Detection</a>
+      <a href="#alert">Alerts</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Welcome to Accident Detection System</h2>
+    <p>Using AI and sensors to detect and alert accidents in real-time.</p>
+  </section>
+
+  <section id="detection">
+    <h2>Accident Detection</h2>
+    <p>Watch the live camera feed. Our AI algorithms will analyze this for detection.</p>
+    
+    <!-- Camera Feed Display -->
+    <video id="video" width="600" autoplay muted></video>
+  
+    <button onclick="simulateDetection()">Simulate Detection</button>
+    <p id="status">Status: No Accident Detected</p>
+  </section>
+
+  <section id="alert">
+    <h2>Accident Alerts</h2>
+    <p>Alerts will be displayed here in case of accidents.</p>
+    <div id="alert-box">No Alerts</div>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>This project is developed to enhance road safety using advanced technology.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <label>Name:</label>
+      <input type="text" required />
+      <label>Email:</label>
+      <input type="email" required />
+      <label>Message:</label>
+      <textarea required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Road Accident Detection System. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
